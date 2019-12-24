@@ -1,0 +1,35 @@
+{
+    "name": "wissenddevops/akeneobundle",
+    "description": "Wissend Custom Bundle",
+    "type": "symfony-bundle",
+    "minimum-stability":"dev-master",
+    "license": "MIT",
+    "homepage":    "https://github.com/wissenddevops/akeneobundle",
+    "authors": [
+        {
+            "name": "wissenddevops",
+            "email": "wissenddevops@github.com",
+            "homepage": "http://www.wissend.com/"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/wissenddevops/akeneobundle",
+        "docs": "https://github.com/wissenddevops/akeneobundle",
+        "issues": "https://github.com/wissenddevops/akeneobundle/issues"
+    },
+    "keywords": [
+        
+        "Wissend Akeneo Bundle"
+        
+    ],
+   
+    "autoload": {
+        "psr-4": {
+            "" : "src/"
+        }
+    },
+    "require": {
+    "php": ">=7.2.0",
+    "wissenddevops/akeneobundle": "^1.0"
+    }
+}
