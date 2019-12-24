@@ -1,0 +1,23 @@
+config:
+    paths:
+        pim/controller/wissend/dashboard: wissendcustom/js/controller/wissend-dashboard
+        pim/controller/wissend/settings: wissendcustom/js/controller/wissend-settings
+        wissend/add-comment: wissendcustom/js/add-comment
+        wissend/template/add-comment: wissendcustom/templates/add-comment.html
+        wissend/mass-edit-form/product/custom: wissendcustom/js/mass-edit/form/product/custom
+        
+    config:
+        pim/controller-registry:
+            controllers:
+                wissend_dashboard:
+                  module: pim/controller/wissend/dashboard
+                  aclResourceId: wissend_dashboard
+
+                wissend_settings:
+                  module: pim/controller/wissend/settings  
+                  aclResourceId: wissend_settings
+                
+
+
+
+

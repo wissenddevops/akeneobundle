@@ -1,0 +1,5 @@
+wissend_dashboard:
+    path:     /dashboard
+
+wissend_settings:
+    path:     /settings
